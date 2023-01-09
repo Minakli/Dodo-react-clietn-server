@@ -1,11 +1,6 @@
 import express from "express";
 // import cors from "cors";
 import mongoose from "mongoose";
-// const express = require("express");
-// const cors = require("cors");
-// const mongoose = require("mongoose");
-// const config = require("./config.js");
-// const Task = require("./models/Task.js");
 import { pizza } from "./data/pizza.js";
 import { combo } from "./data/combo.js";
 import { snacks } from "./data/snacks.js";
