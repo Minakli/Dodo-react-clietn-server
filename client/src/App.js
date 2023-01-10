@@ -1,8 +1,12 @@
 import { useState, useEffect } from "react";
+import { Header } from "./components/Header/Header.jsx";
 
 function App() {
   const [showMain, setShowMain] = useState("pizza");
-  return <h1>Hello</h1>;
+  return (
+    <>
+      <Header />
+    </>
+  );
 }
-
 export default App;
