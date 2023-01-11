@@ -9,38 +9,36 @@
   justify-content: space-between;
   margin: 30px 0;
 }
-a {
-  text-decoration: none;
-}
-img {
+
+.logo {
   display: block;
   width: 248px;
   height: 48px;
 }
-.number {
+.header__number {
   font-family: "Nunito", sans-serif;
   font-size: 18px;
   font-weight: 600;
   line-height: 25px;
   letter-spacing: 0em;
 }
-ul {
+.header__menu {
   display: flex;
   list-style-type: none;
   gap: 24px;
 }
-li > a {
+.header__menu > li > a {
   display: block;
   margin: auto 0;
+  white-space: nowrap;
   font-family: "Nunito", sans-serif;
-
   font-size: 14px;
   font-weight: 400;
   line-height: 19px;
   letter-spacing: 0em;
   margin-top: 10px;
 }
-p {
+.header__number_comment {
   font-family: "Nunito", sans-serif;
   font-size: 15px;
   font-weight: 400;
@@ -48,7 +46,7 @@ p {
   letter-spacing: 0em;
   text-align: left;
 }
-a:active,
-a:hover {
+.header__menu > li > a:active,
+.header__menu > li > a:hover {
   color: orangered;
 }
